@@ -49,7 +49,7 @@ public class Movement : MonoBehaviour
         }
         else if(vector.x < 0f)
         {
-            playerAnimator.SetFloat("lastDirection", 0f);
+            playerAnimator.SetFloat("lastDirection", -1f);
         }
         if (isGrounded)
         {

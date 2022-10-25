@@ -12,7 +12,7 @@ public class Pushing : MonoBehaviour
         {
             playerAnimator.SetBool("isGrounded", true);
             playerAnimator.SetBool("isPushing", true);
-            Debug.Log("isPushing: " + true);
+            //Debug.Log("isPushing: " + true);
         }
     }
 
@@ -22,7 +22,7 @@ public class Pushing : MonoBehaviour
         {
             playerAnimator.SetBool("isGrounded", true);
             playerAnimator.SetBool("isPushing", false);
-            Debug.Log("isPushing: " + false);
+            //Debug.Log("isPushing: " + false);
         }
     }
 }

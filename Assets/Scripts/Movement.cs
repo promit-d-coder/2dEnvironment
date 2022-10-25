@@ -63,7 +63,7 @@ public class Movement : MonoBehaviour
 
         if(isGrounded && isPushing && playerAnimator.GetFloat("speed") == 0f)
         {
-            player2D.AddForce(new Vector2(-5f * playerAnimator.GetFloat("lastDirection"), 0), ForceMode2D.Force);
+            player2D.AddForce(new Vector2(-2f * playerAnimator.GetFloat("lastDirection"), 0), ForceMode2D.Force);
         }
     }
 
